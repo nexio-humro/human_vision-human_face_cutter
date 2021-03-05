@@ -1,0 +1,28 @@
+#ifndef BODY_PART_ENUM_HPP
+#define BODY_PART_ENUM_HPP
+
+#include <iostream>
+
+enum class BODY_PARTS 
+{
+	NOSE = 0,
+	NECK = 1,
+	RIGHT_SHOULDER = 2,
+	RIGHT_ELBOW = 3,
+	RIGHT_WRIST = 4,
+	LEFT_SHOULDER = 5,
+	LEFT_ELBOW = 6,
+	LEFT_WRIST = 7,
+	RIGHT_HIP = 8,
+	RIGHT_KNEE = 9,
+	RIGHT_ANKLE = 10,
+	LEFT_HIP = 11,
+	LEFT_KNEE = 12,
+	LEFT_ANKLE = 13,
+	RIGHT_EYE = 14,
+	LEFT_EYE = 15,
+	RIGHT_EAR = 16,
+	LEFT_EAR = 17
+};
+
+#endif
