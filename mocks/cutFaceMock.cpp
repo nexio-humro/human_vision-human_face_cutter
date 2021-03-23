@@ -44,7 +44,6 @@ int main(int argc, char **argv)
 	
 	human_vision_exchange::CutFaces srv;
 	
-	
 	// fill request
 	cvImage.toImageMsg(srv.request.image);
 	srv.request.keypoints.resize(2);
