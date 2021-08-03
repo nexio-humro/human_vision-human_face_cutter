@@ -109,7 +109,7 @@ namespace FCF
 		
 		if( (faceImage.empty() == false) && (imageSize > 0) )
 		{
-			cv::resize(faceImage, faceImage, cv::Size(imageSize, imageSize));
+//			cv::resize(faceImage, faceImage, cv::Size(imageSize, imageSize));
 			cv::cvtColor(faceImage, faceImage, cv::COLOR_BGRA2RGB);
 		}
 		else
