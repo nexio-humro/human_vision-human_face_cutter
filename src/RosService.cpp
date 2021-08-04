@@ -13,7 +13,8 @@ namespace RS
 			objects.push_back(keypoints);
 		}
 		
-		cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(req.image, sensor_msgs::image_encodings::BGR8);
+//		cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(req.image, sensor_msgs::image_encodings::BGR8);
+		cv_bridge::CvImagePtr cv_ptr = cv_bridge::toCvCopy(req.image, sensor_msgs::image_encodings::RGB8);
 		cv::Mat cvImage = cv_ptr->image;
 		
 		std::vector<cv::Mat> faces;
